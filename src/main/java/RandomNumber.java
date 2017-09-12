@@ -3,11 +3,13 @@ public class RandomNumber {
 
     private int firstPins;
     private int secondPins;
+    private int extraPins;
 
 
     public RandomNumber() {
         this.firstPins = -1;
         this.secondPins = -1;
+        this.extraPins = 0;
     }
 
     private void setFirstPins() {
@@ -18,13 +20,15 @@ public class RandomNumber {
         secondPins = (int)(Math.random() * (10 - firstPins));
     }
 
-    public int setExtraPins (ExtraPins extraPins){
-        switch (extraPins) {
-            case ON: return (int)(Math.random() * 11);
+    public int setExtraPins (ExtraPins extraPinsEnum){
+        switch (extraPinsEnum) {
+            case ON: extraPins = (int)(Math.random() * 11);
+            return extraPins;
 
-            case OFF: return 0;
+            case OFF: extraPins = 0;
+            return extraPins;
         }
-        return 0;
+        return extraPins;
     }
 
     public int getFirstPins() {
@@ -36,4 +40,5 @@ public class RandomNumber {
         if (secondPins == -1) setSecondPins();
         return secondPins;
     }
+
 }

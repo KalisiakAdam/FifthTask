@@ -36,7 +36,7 @@ public class Frame {
         return this.bonusTen && previous.bonusTen;
     }
 
-    private void pinsBonusesManagement() {
+    public void pinsBonusesManagement() {
         if (previous == null) {
             if (ifBonusTen()) {
                 bonusTen = true;
@@ -47,13 +47,14 @@ public class Frame {
             if (ifBonusTen()) {
                 bonusTen = true;
                 if (ifBonusThreeTen()) {
-                    bonusThreeTen = true;
+                     bonusThreeTen = true;
                 }
             }
             else if (ifBonusTenInTwoPins()) {
                 bonusTenInTwoPins = true;
             }
         }
+
     }
 
 
@@ -91,5 +92,57 @@ public class Frame {
 
     public int getFrameScore() {
         return frameScore;
+    }
+
+    public void setFirstPins(int firstPins) {
+        this.firstPins = firstPins;
+    }
+
+    public void setSecondPins(int secondPins) {
+        this.secondPins = secondPins;
+    }
+
+    public int getExtraPins() {
+        return extraPins;
+    }
+
+    public void setExtraPins(int extraPins) {
+        this.extraPins = extraPins;
+    }
+
+    public boolean isBonusTen() {
+        return bonusTen;
+    }
+
+    public void setBonusTen(boolean bonusTen) {
+        this.bonusTen = bonusTen;
+    }
+
+    public boolean isBonusThreeTen() {
+        return bonusThreeTen;
+    }
+
+    public void setBonusThreeTen(boolean bonusThreeTen) {
+        this.bonusThreeTen = bonusThreeTen;
+    }
+
+    public boolean isBonusTenInTwoPins() {
+        return bonusTenInTwoPins;
+    }
+
+    public void setBonusTenInTwoPins(boolean bonusTenInTwoPins) {
+        this.bonusTenInTwoPins = bonusTenInTwoPins;
+    }
+
+    public Frame getPrevious() {
+        return previous;
+    }
+
+    public void setPrevious(Frame previous) {
+        this.previous = previous;
+    }
+
+    public void setFrameScore(int frameScore) {
+        this.frameScore = frameScore;
     }
 }
