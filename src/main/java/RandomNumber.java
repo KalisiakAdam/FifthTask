@@ -8,9 +8,7 @@ public class RandomNumber {
     public RandomNumber() {
         this.firstPins = -1;
         this.secondPins = -1;
-
     }
-
 
     private void setFirstPins() {
         firstPins = (int)(Math.random() * 11);
@@ -18,7 +16,6 @@ public class RandomNumber {
 
     private void setSecondPins() {
         secondPins = (int)(Math.random() * (10 - firstPins));
-
     }
 
     public int setExtraPins (ExtraPins extraPins){
@@ -29,7 +26,6 @@ public class RandomNumber {
         }
         return 0;
     }
-
 
     public int getFirstPins() {
         if (firstPins == -1) setFirstPins();
