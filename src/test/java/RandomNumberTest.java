@@ -11,15 +11,14 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class RandomNumberTest {
 
+    @Mock
     private RandomNumber number;
 
-    @Mock
-    private int firstPin;
 
     @Before
     public void setUp() {
         number = new RandomNumber();
-        when(number.getFirstPins()).thenReturn(new Integer(5));
+        when(number.getFirstPins()).thenReturn(5);
 
     }
 
