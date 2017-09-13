@@ -2,9 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class FrameTest {
 
@@ -14,16 +12,18 @@ public class FrameTest {
     @Before
     public void setUp() {
         previous = new Frame(10,0,0, null);
-        actual = new Frame(10,0,1,previous);
+        actual = new Frame(10,0,0, previous);
     }
 
     @Test
     public void isBonusPinsIsTen_WhenFirstPinsInFrameIsTen() {
+
         assertTrue(actual.ifBonusTen());
     }
 
     @Test
     public void isBonusPinsIsTen_WhenSumOfPinsInFrameIsTen() {
+
         assertTrue(actual.ifBonusTenInTwoPins());
     }
 
@@ -31,6 +31,7 @@ public class FrameTest {
     public void isBonusThreeTen () {
         actual.setBonusTen(true);
         previous.setBonusTen(true);
+
         assertTrue(actual.ifBonusThreeTen());
     }
 
@@ -38,29 +39,39 @@ public class FrameTest {
     public void isTotalPinsInFrameWithOutLastExtraPins() {
         actual.setFirstPins(5);
         actual.setSecondPins(4);
+
         assertThat(actual.totalPinsInFrame(), is(9));
     }
 
     @Test
-    public void isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame() {
-        actual.setBonusTen(true);
-        actual.pinsBonusesManagement();
-        assertThat(actual.isBonusTen(), is(true));
-    }
-
-    @Test
-    public void isBonusThreeTenIsTrueInThisFrame_WhenThereIsPreviousFrame() {
-        actual.setBonusTen(true);
+    public void isItBonusThreeTimesTenPlusFirstPins() {
         actual.setBonusThreeTen(true);
-        actual.pinsBonusesManagement();
-        assertThat(actual.isBonusThreeTen(), is(true));
+        previous.setBonusThreeTen(true);
+
+        assertThat(actual.actualFrameScore(),is(40));
     }
 
     @Test
-    public void isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame() {
-        actual.setBonusTen(false);
-        actual.setBonusTenInTwoPins(true);
-        actual.pinsBonusesManagement();
-        assertThat(actual.isBonusTenInTwoPins(), is(true));
+    public void isItBonusTwoTimesTen() {
+        actual.setBonusThreeTen(false);
+        previous.setBonusThreeTen(false);
+        previous.setBonusTen(true);
+
+        assertThat(actual.actualFrameScore(), is(20));
+    }
+
+    @Test
+    public void isItBonusTenInTwoPinsExtraPointsFromFirstPins() {
+        previous.setBonusTenInTwoPins(true);
+
+        assertThat(actual.actualFrameScore(), is(20));
+    }
+
+    @Test
+    public void itIsNoBonusesOnlyFirstAndSecondPins() {
+        previous.setBonusTen(false);
+        previous.setBonusTenInTwoPins(false);
+
+        assertThat(actual.actualFrameScore(), is(10));
     }
 }

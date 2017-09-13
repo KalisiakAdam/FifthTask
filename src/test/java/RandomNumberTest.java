@@ -1,9 +1,9 @@
 import org.junit.Before;
 import org.junit.Test;
 
-
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertThat;
+import static org.mockito.Mockito.*;
+import static org.junit.Assert.*;
 
 public class RandomNumberTest {
 
@@ -15,15 +15,23 @@ public class RandomNumberTest {
     }
 
     @Test
-    public void shouldGenerateNumberFromOneToTenFirstPin() {
+    public void shouldGenerateNumberFromOneToTenFirstPins() {
         int low = 0;
         int high = 10;
-        assertThat(number.getFirstPins(), allOf(greaterThanOrEqualTo(low),lessThanOrEqualTo(high)) );
+        assertThat(number.getFirstPins(), allOf(greaterThanOrEqualTo(low), lessThanOrEqualTo(high)) );
     }
 
     @Test
-    public void shouldGenerateNumberFromOneToTenToExceptFirstPin() {
-        assertThat(number.getSecondPins(), not(number.getFirstPins() - number.getFirstPins()) );
+    public void shouldGenerateRandomNumberFromExceptFirstPinsToTen() {
+
+        RandomNumber numbers = mock(RandomNumber.class);
+        when(numbers.getFirstPins()).thenReturn(5);
+        when(numbers.getSecondPins()).thenReturn(5);
+
+        int low = 10 - numbers.getFirstPins() ;
+        int high = 10;
+
+        assertThat(numbers.getSecondPins(), allOf(greaterThanOrEqualTo(low), lessThanOrEqualTo(high)));
     }
 
     @Test

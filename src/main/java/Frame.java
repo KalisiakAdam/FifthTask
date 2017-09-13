@@ -40,21 +40,13 @@ public class Frame {
         if (previous == null) {
             if (ifBonusTen()) {
                 bonusTen = true;
-            } else if (ifBonusTenInTwoPins()){
-                bonusTenInTwoPins = true;
-            }
+            } else if (ifBonusTenInTwoPins()) bonusTenInTwoPins = true;
         } else {
             if (ifBonusTen()) {
                 bonusTen = true;
-                if (ifBonusThreeTen()) {
-                     bonusThreeTen = true;
-                }
-            }
-            else if (ifBonusTenInTwoPins()) {
-                bonusTenInTwoPins = true;
-            }
+                if (ifBonusThreeTen()) bonusThreeTen = true;
+            } else if (ifBonusTenInTwoPins()) bonusTenInTwoPins = true;
         }
-
     }
 
 

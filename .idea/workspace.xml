@@ -15,45 +15,16 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DockManager">
-    <window id="3">
+    <window id="4">
       <content type="file-editors">
         <state>
           <leaf>
             <file leaf-file-name="Frame.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-437">
-                    <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-                    <folding>
-                      <element signature="e#2372#2373#0" expanded="true" />
-                      <element signature="e#2405#2406#0" expanded="true" />
-                      <element signature="e#2452#2453#0" expanded="true" />
-                      <element signature="e#2494#2495#0" expanded="true" />
-                      <element signature="e#2543#2544#0" expanded="true" />
-                      <element signature="e#2587#2588#0" expanded="true" />
-                      <element signature="e#2620#2621#0" expanded="true" />
-                      <element signature="e#2652#2653#0" expanded="true" />
-                      <element signature="e#2699#2700#0" expanded="true" />
-                      <element signature="e#2741#2742#0" expanded="true" />
-                      <element signature="e#2776#2777#0" expanded="true" />
-                      <element signature="e#2807#2808#0" expanded="true" />
-                      <element signature="e#2856#2857#0" expanded="true" />
-                      <element signature="e#2896#2897#0" expanded="true" />
-                      <element signature="e#2936#2937#0" expanded="true" />
-                      <element signature="e#2972#2973#0" expanded="true" />
-                      <element signature="e#3031#3032#0" expanded="true" />
-                      <element signature="e#3081#3082#0" expanded="true" />
-                      <element signature="e#3125#3126#0" expanded="true" />
-                      <element signature="e#3165#3166#0" expanded="true" />
-                      <element signature="e#3232#3233#0" expanded="true" />
-                      <element signature="e#3290#3291#0" expanded="true" />
-                      <element signature="e#3324#3325#0" expanded="true" />
-                      <element signature="e#3355#3356#0" expanded="true" />
-                      <element signature="e#3402#3403#0" expanded="true" />
-                      <element signature="e#3442#3443#0" expanded="true" />
-                      <element signature="e#3491#3492#0" expanded="true" />
-                      <element signature="e#3535#3536#0" expanded="true" />
-                    </folding>
+                  <state relative-caret-position="720">
+                    <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -66,33 +37,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RandomNumberTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RandomNumberTest.java">
+      <file leaf-file-name="FrameTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FrameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="655">
+              <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
               <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FrameTest.java">
+      <file leaf-file-name="RandomNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RandomNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="630">
+              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BowlingGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="360">
               <caret line="20" column="122" lean-forward="false" selection-start-line="20" selection-start-column="122" selection-end-line="20" selection-end-column="122" />
               <folding />
             </state>
@@ -152,9 +116,9 @@
         <option value="$PROJECT_DIR$/src/main/java/BowlGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/BowlingGame.java" />
         <option value="$PROJECT_DIR$/src/test/java/BowlingGameSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RandomNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/RandomNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RandomNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/FrameTest.java" />
       </list>
     </option>
@@ -166,9 +130,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1135" />
-    <option name="y" value="44" />
-    <option name="width" value="1298" />
+    <option name="x" value="104" />
+    <option name="y" value="59" />
+    <option name="width" value="1315" />
     <option name="height" value="1315" />
   </component>
   <component name="ProjectView">
@@ -272,28 +236,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="JUnit.FrameTest.isBonusThreeTenIsTrueInThisFrame_WhenThereIsPreviousFrame">
-    <configuration default="false" name="FrameTest.isTotalPinsInFrameWithOutLastExtraPins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="fifth" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FrameTest" />
-      <option name="METHOD_NAME" value="isTotalPinsInFrameWithOutLastExtraPins" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FrameTest.itIsNoBonusesOnlyFirstAndSecondPins">
     <configuration default="false" name="FrameTest.isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="fifth" />
@@ -315,14 +258,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FrameTest.isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FrameTest.isItBonusThreeTimesTenPlusFirstPins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="fifth" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FrameTest" />
-      <option name="METHOD_NAME" value="isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame" />
+      <option name="METHOD_NAME" value="isItBonusThreeTimesTenPlusFirstPins" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -336,15 +279,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FrameTest.isItBonusTwoTimesTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="fifth" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FrameTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="isItBonusTwoTimesTen" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -357,14 +300,35 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FrameTest.isBonusThreeTenIsTrueInThisFrame_WhenThereIsPreviousFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FrameTest.isItBonusTenInTwoPinsExtraPointsFromFirstPins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="fifth" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FrameTest" />
-      <option name="METHOD_NAME" value="isBonusThreeTenIsTrueInThisFrame_WhenThereIsPreviousFrame" />
+      <option name="METHOD_NAME" value="isItBonusTenInTwoPinsExtraPointsFromFirstPins" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FrameTest.itIsNoBonusesOnlyFirstAndSecondPins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="fifth" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FrameTest" />
+      <option name="METHOD_NAME" value="itIsNoBonusesOnlyFirstAndSecondPins" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -752,19 +716,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FrameTest.isTotalPinsInFrameWithOutLastExtraPins" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FrameTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusThreeTenIsTrueInThisFrame_WhenThereIsPreviousFrame" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FrameTest.isItBonusThreeTimesTenPlusFirstPins" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FrameTest.isItBonusTwoTimesTen" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FrameTest.isItBonusTenInTwoPinsExtraPointsFromFirstPins" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FrameTest.itIsNoBonusesOnlyFirstAndSecondPins" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusThreeTenIsTrueInThisFrame_WhenThereIsPreviousFrame" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FrameTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FrameTest.isTotalPinsInFrameWithOutLastExtraPins" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FrameTest.itIsNoBonusesOnlyFirstAndSecondPins" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FrameTest.isItBonusTenInTwoPinsExtraPointsFromFirstPins" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FrameTest.isItBonusTwoTimesTen" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FrameTest.isItBonusThreeTimesTenPlusFirstPins" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FrameTest.isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -778,47 +742,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505248641961</updated>
-      <workItem from="1505248645054" duration="8356000" />
+      <workItem from="1505248645054" duration="15047000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FrameTest - 2017.09.13 at 00h 53m 59s.xml">
-      <configuration name="FrameTest" configurationId="JUnit" />
+    <history-entry file="FrameTest_isItBonusTenInTwoPinsExtraPointsFromFirstPins - 2017.09.13 at 20h 54m 55s.xml">
+      <configuration name="FrameTest.isItBonusTenInTwoPinsExtraPointsFromFirstPins" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isBonusPinsIsTen_WhenSumOfPinsInFrameIsTen - 2017.09.13 at 00h 26m 06s.xml">
-      <configuration name="FrameTest.isBonusPinsIsTen_WhenSumOfPinsInFrameIsTen" configurationId="JUnit" />
+    <history-entry file="FrameTest_isItBonusThreeTimesTenPlusFirstPins - 2017.09.13 at 20h 51m 07s.xml">
+      <configuration name="FrameTest.isItBonusThreeTimesTenPlusFirstPins" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isBonusPointIsTen_WhenFirstPinsInFrameTen - 2017.09.13 at 00h 24m 13s.xml">
-      <configuration name="FrameTest.isBonusPointIsTen_WhenFirstPinsInFrameTen" configurationId="JUnit" />
+    <history-entry file="FrameTest_isItBonusThreeTimesTenPlusFirstPins - 2017.09.13 at 20h 51m 57s.xml">
+      <configuration name="FrameTest.isItBonusThreeTimesTenPlusFirstPins" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame - 2017.09.13 at 00h 53m 12s.xml">
-      <configuration name="FrameTest.isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame" configurationId="JUnit" />
+    <history-entry file="FrameTest_isItBonusThreeTimesTenPlusFirstPins - 2017.09.13 at 20h 52m 13s.xml">
+      <configuration name="FrameTest.isItBonusThreeTimesTenPlusFirstPins" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame - 2017.09.13 at 00h 53m 55s.xml">
-      <configuration name="FrameTest.isBonusTenInTwoPinsTrueInThisFrame_WhenThereIsPreviousFrame" configurationId="JUnit" />
+    <history-entry file="FrameTest_isItBonusTwoTimesTen - 2017.09.13 at 20h 49m 49s.xml">
+      <configuration name="FrameTest.isItBonusTwoTimesTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame - 2017.09.13 at 00h 51m 23s.xml">
-      <configuration name="FrameTest.isBonusTenIsTrueInThisFrame_WhenThereIsPreviousFrame" configurationId="JUnit" />
+    <history-entry file="FrameTest_isItBonusTwoTimesTen - 2017.09.13 at 20h 50m 18s.xml">
+      <configuration name="FrameTest.isItBonusTwoTimesTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isBonusThreeTen - 2017.09.13 at 00h 33m 00s.xml">
-      <configuration name="FrameTest.isBonusThreeTen" configurationId="JUnit" />
+    <history-entry file="FrameTest_isItBonusTwoTimesTen - 2017.09.13 at 20h 52m 31s.xml">
+      <configuration name="FrameTest.isItBonusTwoTimesTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isTotalPinsInFrameWithOutLastExtraPins - 2017.09.13 at 00h 37m 09s.xml">
-      <configuration name="FrameTest.isTotalPinsInFrameWithOutLastExtraPins" configurationId="JUnit" />
+    <history-entry file="FrameTest_itIsNoBonusesOnlyFirstAndSecondPins - 2017.09.13 at 20h 56m 29s.xml">
+      <configuration name="FrameTest.itIsNoBonusesOnlyFirstAndSecondPins" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isTotalPinsInFrameWithOutLastExtraPins - 2017.09.13 at 00h 37m 17s.xml">
-      <configuration name="FrameTest.isTotalPinsInFrameWithOutLastExtraPins" configurationId="JUnit" />
+    <history-entry file="FrameTest_itIsNoBonusesOnlyFirstAndSecondPins - 2017.09.13 at 20h 57m 20s.xml">
+      <configuration name="FrameTest.itIsNoBonusesOnlyFirstAndSecondPins" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameTest_isTotalPinsInFrameWithOutLastExtraPins - 2017.09.13 at 00h 37m 45s.xml">
-      <configuration name="FrameTest.isTotalPinsInFrameWithOutLastExtraPins" configurationId="JUnit" />
+    <history-entry file="FrameTest_itIsNoBonusesOnlyFirstAndSecondPins - 2017.09.13 at 20h 57m 39s.xml">
+      <configuration name="FrameTest.itIsNoBonusesOnlyFirstAndSecondPins" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8356000" />
+    <option name="totallyTimeSpent" value="15047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1135" y="44" width="1298" height="1315" extended-state="0" />
+    <frame x="104" y="59" width="1315" height="1315" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -830,13 +794,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20634921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24143693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16457811" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1982484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19560094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -860,7 +824,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -887,6 +851,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RandomNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -895,10 +877,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BowlingGame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="20" column="122" lean-forward="false" selection-start-line="20" selection-start-column="122" selection-end-line="20" selection-end-column="122" />
+        <state relative-caret-position="720">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RandomNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -911,86 +901,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RandomNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RandomNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#2372#2373#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2452#2453#0" expanded="true" />
-            <element signature="e#2494#2495#0" expanded="true" />
-            <element signature="e#2543#2544#0" expanded="true" />
-            <element signature="e#2587#2588#0" expanded="true" />
-            <element signature="e#2620#2621#0" expanded="true" />
-            <element signature="e#2652#2653#0" expanded="true" />
-            <element signature="e#2699#2700#0" expanded="true" />
-            <element signature="e#2741#2742#0" expanded="true" />
-            <element signature="e#2776#2777#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#2936#2937#0" expanded="true" />
-            <element signature="e#2972#2973#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#3081#3082#0" expanded="true" />
-            <element signature="e#3125#3126#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#3232#3233#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3324#3325#0" expanded="true" />
-            <element signature="e#3355#3356#0" expanded="true" />
-            <element signature="e#3402#3403#0" expanded="true" />
-            <element signature="e#3442#3443#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="e#3535#3536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FrameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        <state relative-caret-position="655">
+          <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BowlingGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="122" lean-forward="false" selection-start-line="20" selection-start-column="122" selection-end-line="20" selection-end-column="122" />
+          <folding />
         </state>
       </provider>
     </entry>

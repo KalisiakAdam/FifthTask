@@ -17,7 +17,7 @@ public class RandomNumber {
     }
 
     private void setSecondPins() {
-        secondPins = (int)(Math.random() * (10 - firstPins));
+        secondPins = (int)(Math.random() * (11 - firstPins));
     }
 
     public int setExtraPins (ExtraPins extraPinsEnum){
