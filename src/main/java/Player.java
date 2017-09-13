@@ -5,7 +5,7 @@ public class Player {
     private String name;
     private Stack<Frame> playerGame;
 
-    public Player(String name) {
+    public Player (String name) {
         playerGame = new Stack<>();
         Frame frame = new Frame(0, 0, 0, null);
         frame.actualFrameScore();

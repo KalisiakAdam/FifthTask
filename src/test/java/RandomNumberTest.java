@@ -18,7 +18,8 @@ public class RandomNumberTest {
     public void shouldGenerateNumberFromOneToTenFirstPins() {
         int low = 0;
         int high = 10;
-        assertThat(number.getFirstPins(), allOf(greaterThanOrEqualTo(low), lessThanOrEqualTo(high)) );
+
+        assertThat(number.getFirstPins(), allOf(greaterThanOrEqualTo(low), lessThanOrEqualTo(high)));
     }
 
     @Test
@@ -28,19 +29,19 @@ public class RandomNumberTest {
         when(numbers.getFirstPins()).thenReturn(5);
         when(numbers.getSecondPins()).thenReturn(5);
 
-        int low = 10 - numbers.getFirstPins() ;
+        int low = 10 - numbers.getFirstPins();
         int high = 10;
 
         assertThat(numbers.getSecondPins(), allOf(greaterThanOrEqualTo(low), lessThanOrEqualTo(high)));
     }
 
     @Test
-    public void isExtraPinsWithEnumZeroReturnZero() {
+    public void isExtraPinsWithEnumOffReturnZero() {
         assertThat(number.setExtraPins(ExtraPins.OFF), is(0));
     }
 
     @Test
-    public void isExtraPinsWithEnumZeroReturnFromOneToTen() {
+    public void isExtraPinsWithEnumOnReturnFromOneToTen() {
         int low = 0;
         int high = 10;
         assertThat(number.setExtraPins(ExtraPins.ON), allOf(greaterThanOrEqualTo(low),lessThanOrEqualTo(high)));

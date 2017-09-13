@@ -5,7 +5,6 @@ public class RandomNumber {
     private int secondPins;
     private int extraPins;
 
-
     public RandomNumber() {
         this.firstPins = -1;
         this.secondPins = -1;
@@ -20,7 +19,7 @@ public class RandomNumber {
         secondPins = (int)(Math.random() * (11 - firstPins));
     }
 
-    public int setExtraPins (ExtraPins extraPinsEnum){
+    public int setExtraPins (ExtraPins extraPinsEnum) {
         switch (extraPinsEnum) {
             case ON: extraPins = (int)(Math.random() * 11);
             return extraPins;

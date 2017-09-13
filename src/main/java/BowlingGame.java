@@ -33,8 +33,6 @@ public class BowlingGame {
         player.getPlayerGame().push(thisFrame);
 
         if (player.equals(player1)) {
-
-
             totalPinsFirstPlayer += thisFrame.getFrameScore();
             displayResult(player, totalPinsFirstPlayer);
 
@@ -56,21 +54,26 @@ public class BowlingGame {
 
     public void generateGame() {
 
-        while (isEndOfGame(player1.getPlayerGame().size(),player2.getPlayerGame().size())) {
-            if (player1.getPlayerGame().size() < 11 && player2.getPlayerGame().size() < 11 ){
+        while (isEndOfGame(player1.getPlayerGame().size(), player2.getPlayerGame().size())) {
+
+            if (player1.getPlayerGame().size() < 11 && player2.getPlayerGame().size() < 11 ) {
+
                 int tempGeneratorPlayerOne = nextFrameGenerator(player1);
                 while (tempGeneratorPlayerOne == 10) {
                     if (player1.getPlayerGame().size() == 11) {break;}
                     else {tempGeneratorPlayerOne = nextFrameGenerator(player1);}
                 }
+
                 int tempGeneratorPlayerTwo = nextFrameGenerator(player2);
                 while (tempGeneratorPlayerTwo == 10) {
                     if (player2.getPlayerGame().size() == 11) {break;}
                     else {tempGeneratorPlayerTwo = nextFrameGenerator(player2);}
                 }
-            } else if (player1.getPlayerGame().size() == 11 && player2.getPlayerGame().size() < 11 ){
+
+            } else if (player1.getPlayerGame().size() == 11 && player2.getPlayerGame().size() < 11 ) {
                 nextFrameGenerator(player2);
-            } else if (player1.getPlayerGame().size() < 11 && player2.getPlayerGame().size() == 11 ){
+
+            } else if (player1.getPlayerGame().size() < 11 && player2.getPlayerGame().size() == 11 ) {
                 nextFrameGenerator(player1);
             }
         }

@@ -36,7 +36,7 @@ public class FrameTest {
     }
 
     @Test
-    public void isTotalPinsInFrameWithOutLastExtraPins() {
+    public void isTotalPinsInFrameWithoutLastExtraPins() {
         actual.setFirstPins(5);
         actual.setSecondPins(4);
 
@@ -68,7 +68,7 @@ public class FrameTest {
     }
 
     @Test
-    public void itIsNoBonusesOnlyFirstAndSecondPins() {
+    public void isItNoBonusesOnlyFirstAndSecondPins() {
         previous.setBonusTen(false);
         previous.setBonusTenInTwoPins(false);
 

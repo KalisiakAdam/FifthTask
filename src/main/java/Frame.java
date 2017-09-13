@@ -10,8 +10,7 @@ public class Frame {
     private Frame previous;
     private int frameScore;
 
-
-    public Frame(int firstPins, int secondPins, int extraPins, Frame previous) {
+    public Frame (int firstPins, int secondPins, int extraPins, Frame previous) {
         this.firstPins = firstPins;
         this.secondPins = secondPins;
         this.extraPins = extraPins;
@@ -25,7 +24,6 @@ public class Frame {
 
     public boolean ifBonusTen() {
         return firstPins == 10;
-
     }
 
     public boolean ifBonusTenInTwoPins() {
