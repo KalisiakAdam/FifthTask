@@ -28,7 +28,7 @@ public class FrameTest {
     }
 
     @Test
-    public void isBonusThreeTen () {
+    public void isBonusThreeTen() {
         actual.setBonusTen(true);
         previous.setBonusTen(true);
 

@@ -13,26 +13,35 @@ public class BowlingGame {
         this.player2 = new Player("Player 2");
     }
 
+    public Frame whatKindOfFrameReturn(int numberOfFrames, Frame previousFrame) {
+            Frame generatedFrame = null;
+            RandomNumber randomNumber = new RandomNumber();
+        if (numberOfFrames <= 10) {
+            generatedFrame = new Frame(randomNumber.getFirstPins(), randomNumber.getSecondPins(), randomNumber.setExtraPins(ExtraPins.OFF), previousFrame);
+        } else if (numberOfFrames == 11) {
+            generatedFrame = new Frame(randomNumber.getFirstPins(), randomNumber.getSecondPins(), randomNumber.setExtraPins(ExtraPins.ON), previousFrame);
+        }
+
+        return generatedFrame;
+    }
+
     public int nextFrameGenerator(Player player) {
 
-        RandomNumber randomNumber = new RandomNumber();
         Frame previousFrame = player.getPlayerGame().peek();
-            if (player.getPlayerGame().size() <= 10) {
-                thisFrame = new Frame(randomNumber.getFirstPins(), randomNumber.getSecondPins(), randomNumber.setExtraPins(ExtraPins.OFF), previousFrame);
-            } else if (player.getPlayerGame().size() == 11) {
-                thisFrame = new Frame(randomNumber.getFirstPins(), randomNumber.getSecondPins(), randomNumber.setExtraPins(ExtraPins.ON), previousFrame);
-            }
+        thisFrame = whatKindOfFrameReturn(player.getPlayerGame().size(), previousFrame);
         thisFrame.actualFrameScore();
         player.getPlayerGame().push(thisFrame);
 
-            if (player.equals(player1)) {
-                totalPinsFirstPlayer += thisFrame.getFrameScore();
-                displayResult(player, totalPinsFirstPlayer);
+        if (player.equals(player1)) {
 
-            } else {
-                totalPinsSecondPlayer += thisFrame.getFrameScore();
-                displayResult(player, totalPinsSecondPlayer);
-            }
+
+            totalPinsFirstPlayer += thisFrame.getFrameScore();
+            displayResult(player, totalPinsFirstPlayer);
+
+        } else {
+            totalPinsSecondPlayer += thisFrame.getFrameScore();
+            displayResult(player, totalPinsSecondPlayer);
+        }
 
         return thisFrame.totalPinsInFrame();
     }
@@ -47,7 +56,7 @@ public class BowlingGame {
 
     public void generateGame() {
 
-        while (isEndOfGame()) {
+        while (isEndOfGame(player1.getPlayerGame().size(),player2.getPlayerGame().size())) {
             if (player1.getPlayerGame().size() < 11 && player2.getPlayerGame().size() < 11 ){
                 int tempGeneratorPlayerOne = nextFrameGenerator(player1);
                 while (tempGeneratorPlayerOne == 10) {
@@ -67,7 +76,7 @@ public class BowlingGame {
         }
     }
 
-    public boolean isEndOfGame () {
-        return !(player1.getPlayerGame().size() == 11 && player2.getPlayerGame().size() == 11);
+    public boolean isEndOfGame (int player1Size, int player2Size) {
+        return !(player1Size == 11 && player2Size == 11);
     }
 }
